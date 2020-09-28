@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <a href="/webPersonal/index.html"><h1>Tamara Ocaña</h1></a>
+   </header>
+
+   <nav>
+       <ul>
+           <li><a href= "/webPersonal/index.html">Home</a></li>
+           <li><a href= "/webPersonal/biografia.html">Biografía</a></li>
+           <li><a href= "#">CV</a></li>
+           <li><a href= "#">Blog</a></li>
+           <li><a href= "/webPersonal/contacto.html">Contacto</a></li>
+       </ul>
+   </nav>
+
+   <article class="contacto">
+       <h1>Háblame de tu proyecto</h1>
+       <h2>Llama al +34 684009711</h2>
+       <p>Si lo prefieres rellena el formulario y envíame tus dudas</p>
+   </article>
+   <div class="form">
+       <form action="https://w3schools.com/action_page.php" method="GET">
+
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name" autofocus required tabindex="1" placeholder="Añade tu nombre">
+
+          <label for="surname">Apellido</label>
+          <input type="text" name="surname" id="surname" required tabindex="2" placeholder="Añade tu apellido">
+
+          <label for="company">Empresa</label>
+          <input type="text" name="company" id="company" required tabindex="3" placeholder="Añade el nombre de tu empresa">
+
+          <label for="number">Teléfono de contacto</label>
+          <input type="text" name="number" id="number" required tabindex="4" placeholder="Añade teléfono de contacto">
+
+          <label for="email">Correo electrónico</label>
+          <input type="text" name="email" id="email" required tabindex="5" placeholder="Añade correo electrónico">
+
+          <label for="comments" class="comentarios">Cuéntame qué tienes en mente</label>
+          <textarea name="comments" id="comments" cols="30" rows="10" maxlength="500" placeholder="añade tu comentario" tabindex="6"></textarea>
+
+          <label for="privacy" id="privacy">Acepto las políticas de privacidad</label>
+          <input type="checkbox" name="yes" id="yes" tabindex="7">
+
+          <input type="submit" value="Enviar" id="submit">
+       </form>
+   </div>
+
+   <footer>
+      <a href="http://linkedin.com/in/tamaraomontellano" target="_blank">Tamara Ocaña</a>
+   </footer>
+    
+    
+</body>
+</html>
